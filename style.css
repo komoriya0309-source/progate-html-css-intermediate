@@ -133,3 +133,11 @@ header{
     width: 100%;
     color: white;
 }
+
+.text-contents{
+    width: 80px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b3aeb5;
+}
