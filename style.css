@@ -15,6 +15,7 @@ a{
 
 header{
     height: 65px;
+    width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
 }
 
@@ -94,7 +95,7 @@ header{
 }
 
 .btn-wrapper p{
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .fa{
@@ -129,13 +130,13 @@ header{
 
 .lesson-icon p{
     position: absolute;
-    top: 90px;
+    top: 90px;  /* Progate通りに入力すると文字が下に位置されてしまう…色々調べて試したが未解決。70pxだとちょうどいいがそれでいいのか？10.9 */
     width: 100%;
     color: white;
 }
 
 .txt-contents{
-    width: 80px;
+    width: 80%;
     display: inline-block;
     margin-top: 20px;
     font-size: 12px;
