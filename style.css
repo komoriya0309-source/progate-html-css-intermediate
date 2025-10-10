@@ -149,12 +149,18 @@ header{
     text-align: center;
 }
 
+.heading h3{
+    font-weight: normal;
+}
+
 .message{
     background-color: #5dca88;
     padding: 15px 40px;
     box-shadow: 0px 7px #1a7940;
 }
 
-.heading h3{
-    font-weight: normal;
+.message: active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
 }
