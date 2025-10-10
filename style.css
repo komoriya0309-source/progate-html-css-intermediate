@@ -130,7 +130,7 @@ header{
 
 .lesson-icon p{
     position: absolute;
-    top: 90px;  /* Progate通りに入力すると文字が下に位置されてしまう…色々調べて試したが未解決。70pxだとちょうどいいがそれでいいのか？10.9 */
+    top: 70px;  /* Progate通りに90pxと入力すると文字が下に位置されてしまう…色々調べて試したが未解決。70pxだとちょうどいいがそれでいいのか？10.9 */
     width: 100%;
     color: white;
 }
